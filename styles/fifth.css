@@ -1,0 +1,83 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(to right, red, black);
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.822);
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+section {
+    padding: 2em;
+}
+
+article {
+    background-image: url(images/cosmo.jpg);
+    color: #fff;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition:  0.3s;
+}
+
+article:hover {
+    transform: scale(1.02);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.822);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.headline {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.date {
+    color: #888;
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+}
+
+.content {
+    line-height: 1.6;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-options a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .footer-options a:hover {
+    text-decoration: underline;
+  }
+  

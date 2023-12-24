@@ -1,0 +1,86 @@
+body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 1em;
+      text-align: center;
+      font-size: 1.5em;
+      background-image: url(../../cosmosi.jpg);
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .about-section {
+      text-align: center;
+      margin-bottom: 40px;
+      opacity: 0;
+      animation: fadeIn 1s forwards;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    .about-section h2 {
+      color: #333;
+    }
+
+    .about-content {
+      text-align: justify;
+      line-height: 1.6;
+    }
+
+    .team-section {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .team-member {
+      text-align: center;
+      margin: 20px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .team-member img {
+      border-radius: 50%;
+      max-width: 50px;
+      height: auto;
+    }
+    .team-member:hover {
+      transform: scale(1.1);
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .footer-options a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+    
+    .footer-options a:hover {
+      text-decoration: underline;
+    }
+    
